@@ -15,7 +15,7 @@ function fun() {
       // Extract the temperature in Celsius from the object in the data
       const temp_c = data.current.temp_c;
       const temp_f = data.current.temp_f;
-      const imageSource = data.current.condition.icon;
+      const imageSource = "https:" + data.current.condition.icon;
       const location = data.location.country + ", " + data.location.name;
       const localTime = data.location.localtime;
 
