@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Weather Extension",
+  "description": "simple weather info, search by city",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": []
+}

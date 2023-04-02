@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    rgba(0, 0, 255, 0.308),
+    rgba(255, 0, 0, 0.295)
+  );
+}
+
+.subcon {
+  text-align: center;
+  margin: 2px;
+}
+button,
+input {
+  margin-top: 10px;
+  border-radius: 20px;
+  background: none;
+  padding: 2px 8px;
+  border: 1px solid black;
+  font-size: 12px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: rgba(128, 128, 128, 0.171);
+}
+input {
+  text-align: center;
+}
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+*:focus {
+  outline: none;
+}
