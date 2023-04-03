@@ -3,7 +3,7 @@ document.querySelector("[data-btn]").addEventListener("click", fun);
 function fun() {
   // Set the city and API key variables
   const city = document.querySelector("[data-city]").value;
-  const key = "ca24585347bf4e708d812731230204";
+  const key = "";
 
   // Construct the API URL with the city and API key variables
   const url = `http://api.weatherapi.com/v1/current.json?key=${key}&q=${city}&aqi=no`;
