@@ -1,2 +1,2 @@
 # WeatherExtension
-Google Weather extension with weatherapi.com
+Google weather extension made with weatherapi.com
